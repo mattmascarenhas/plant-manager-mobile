@@ -1,5 +1,5 @@
 export default {
-  heading: "Roboto_600SemiBold",
-  text: "Roboto_400Regular",
-  complement: "Roboto_400Regular",
+  heading: "Jost_600SemiBold",
+  text: "Jost_400Regular",
+  complement: "Jost_400Regular",
 };

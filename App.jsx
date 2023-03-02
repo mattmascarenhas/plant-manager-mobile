@@ -4,9 +4,7 @@ import {
   Jost_600SemiBold,
 } from "@expo-google-fonts/jost";
 import AppLoading from "expo-app-loading";
-import { Welcome } from "./src/pages/Welcome";
-import { UserIndetification } from "./src/pages/UserIndentification";
-import Confirmation from "./src/pages/Confimation";
+import AppRoutes from "./src/routes";
 
 export function App() {
   //carregamento da font
@@ -18,11 +16,7 @@ export function App() {
   if (!fontsLoaded) {
     <AppLoading />;
   }
-  return (
-    <>
-      <Confirmation />
-    </>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
